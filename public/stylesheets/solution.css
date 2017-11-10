@@ -1,0 +1,51 @@
+@charset "utf-8";
+/**
+** 功能：“方案解决”样式设置
+**开发者：
+**最后修改日期：
+**/
+
+/*方案解决页轮播图*/
+.solution-view .banner {
+    background: url("../images/solution/case-banner.png") no-repeat;
+    background-size: cover;
+}
+/*控制图片分类切换*/
+.solution-view .tab {
+    width: 90%;
+    font-size: 1em;
+    color: #414141;
+    letter-spacing: 1px;
+    padding: 60px 0 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.solution-view .tab a {
+    padding: 0 25px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.solution-view .tab a.active {
+    color: #3c9de5;
+}
+/*图片展示*/
+.solution-view .solution-container {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.solution-view .solution-container > li {
+    width: 32%;
+    min-width: 250px;
+    max-width: 440px;
+    margin-right: 1.3%;
+    margin-bottom: 15px;
+}
+.solution-view .solution-container > li img {
+    width: 100%;
+}

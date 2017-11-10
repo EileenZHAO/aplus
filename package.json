@@ -1,0 +1,11 @@
+{
+  "name": "aplus",
+  "version": "1.0.0",
+  "description": "成都艾尔帕思科技有限公司",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT"
+}
